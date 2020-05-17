@@ -1,0 +1,62 @@
+.App-header-Works{
+    /* background-color: #aa2ec0; */
+     min-height: 90vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(6px + 2vmin);
+    color: #48508E;
+    background-image: url("/image2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size:  40%;
+    background-position: right;
+    background-position-x: 750px;
+  }
+
+  .App-header-Works p{
+    color: #917999b8;
+  }
+
+  .cor-attbr{
+    color:#917999b8;
+  }
+ /* #howWorks h1,h2,h3,h4,h5{
+    color:#aa2ec0;
+  } */
+
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+
+    .App-header-Works {
+      background-image: none;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .bgimg {
+background-image: none;
+}
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+  .bgimg {
+background-image: none;
+}
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+  .bgimg {
+background-image: none;
+}
+
+}

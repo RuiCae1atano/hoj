@@ -1,0 +1,27 @@
+.App-header-Services{
+    /* background-color: #aa2ec0; */
+     min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(6px + 2vmin);
+    color: #48508E;
+    background-image: url("/image4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size:  40%;
+    background-position: left;
+     background-position-x: 150px; 
+  }
+
+  .App-header-Services p{
+    color: #917999b8;
+  }
+
+  .cor-attbr{
+    color:#917999b8;
+  }
+ /* #howWorks h1,h2,h3,h4,h5{
+    color:#aa2ec0;
+  } */

@@ -1,0 +1,209 @@
+/* vietnamese */
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/muli/v20/7Aulp_0qiz-aVz7u3PJLcUMYOFnOkEk40eiNxw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/muli/v20/7Aulp_0qiz-aVz7u3PJLcUMYOFnOkEk50eiNxw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/muli/v20/7Aulp_0qiz-aVz7u3PJLcUMYOFnOkEk30eg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+.App {
+  /* text-align: center; */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+
+/*navbar */
+.icon{
+  margin-top: 10px;
+  height: 60px;
+  /* width: 150px; */
+}
+
+
+.p-higher{
+  /* font-size: 62px; */
+  margin-top: 10%;
+}
+
+.p-higher-2{
+  font-size: 62px;
+  /* margin-top: 5%; */
+}
+
+
+.color-link{
+
+  font-family: Muli;
+  color: #48508E;
+  /* font-weight: bold; */
+}
+
+
+ a:hover {
+  color: #ffc107;
+  text-decoration: underline;
+}
+
+
+.style-button {
+	box-shadow: 0px 0px 0px 0px #3dc21b;
+	background-color:#ffc107;
+	border-radius:33px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:14px 56px;
+	text-decoration:none;
+  text-shadow:0px 1px 0px #2f6627;
+  color: white;
+}
+.myButton:hover {
+	background-color:transparent;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.navbar{
+  padding: 0;
+}
+
+      
+
+/*navbar */
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #aa2ec0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.App-header-Home {
+  background-color: #aa2ec0;
+  /* background: linear-gradient(to left, #ff0000 50%, #0000ff 50%); */
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(12px + 2vmin);
+  color: white;
+  background-image: url("/image1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size:  50%;
+  background-position: right;
+  background-position-x: 650px;
+}
+
+
+.App-header-new {
+  /* background-color: #aa2ec0; */
+   min-height: 100vh; 
+   display: flex; 
+   flex-direction: column; 
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* font-size: calc(10px + 2vmin); */
+  /* color: ; */
+  color: #ffc107;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* .home{
+  background-color: #aa2ec0;
+} */
+
+
+/*section */
+
+.section-text-title{
+  color:#48508E;
+}
+
+.p-text-section{
+  color:#48508E;
+  font-size: 20px;
+  font-family: Muli;
+  font-weight: 700;
+  
+}
+
+.navbar{
+  background-color: #ffffff;
+}
+
+/*section */
+
+
+#page{
+  height: 400px;
+  margin-top: 215px;
+  margin-bottom: 100px;
+}
+
+
+#pag{
+  height: 600px;
+  margin-top: 15px;
+  margin-bottom: 150px
+}
+
+
+.cor-attbr{
+  color:#aa2ec0;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
