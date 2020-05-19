@@ -25,3 +25,40 @@
  /* #howWorks h1,h2,h3,h4,h5{
     color:#aa2ec0;
   } */
+
+
+
+  
+  @media (min-width: 992px) and (max-width: 1199px) {
+
+    .App-header-Services {
+      background-image: none;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .App-header-Services {
+    background-image: none;
+  }
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+  .App-header-Services {
+    background-image: none;
+  }
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+  .App-header-Services {
+    background-image: none;
+  }
+
+}

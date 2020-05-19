@@ -3,8 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import axios from 'axios'; 
 // import Boostrap from 'bootstrap';
 // import * as bootstrap from '../node_modules/bootstrap';
+import { browserHistory, Router, Route } from 'react-router-dom';
+
+
 
 
 ReactDOM.render(

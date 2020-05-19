@@ -9,7 +9,7 @@ class HowWorks extends React.Component{
             <div className="App-header-Works">
             <div class="container d-flex">
               <div id="howWorks" class="flex-row justify-content-end">
-                  <div className="col-6 text-left">
+                  <div className="col-md-6 text-left">
                   <h2  className="p-higher cor-attbr">GANHE DINHEIRO COM A SUA INFLUÊNCIA</h2>
                   <h4  className="sectionh4 mb-5">Chega de parcerias pouco lucrativas</h4>
                   <p className="">

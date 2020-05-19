@@ -3,7 +3,8 @@
 import React, {Component} from 'react';
 import App from '../App';
 import mylogo from '../tgtrlogo.png';
-import 'bootstrap/dist/css/bootstrap.css';
+// import 'bootstrap/dist/css/bootstrap.css';
+import '../css/nav.css';
 
 
 
@@ -22,7 +23,7 @@ class Nav extends React.Component{
           <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item active">
-                <a className="nav-link color-link" href="#">home <span className="sr-only">(current)</span></a>
+                <a className="nav-link ml-2 color-link" href="#">home <span className="sr-only">(current)</span></a>
               </li>
               <li className="nav-item">
                 <a className="nav-link ml-2 color-link" href="#howWorks">como funciona</a>
