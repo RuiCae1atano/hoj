@@ -27,9 +27,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "client": "cd client && npm start",
-    "server": "node server.js",
-    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
+    "client": "cd client && npm start"
   },
   "eslintConfig": {
     "extends": "react-app"
