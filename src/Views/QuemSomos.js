@@ -11,9 +11,8 @@ class QuemSomos extends React.Component{
                   <div>
                   <h2 class="col-md-7 text-left p-higher">Nós Somos</h2>
                   <p class="col-md-6 text-left">
-                  Somos uma freelance consultancy com o objetivo de fazer crescer
-                  o seu negócio, ajudando na criação de infoprodutos, e-learning,
-                  ebooks e aplicando estratégias de marketing para melhorar o seu alcance nas vendas.
+                  Agarre essa oportunidade de fazer parte da família TGTR e juntos faremos com que o seu infoproduto seja o reflexo do que de melhor tem a oferecer a quem o segue. 
+                  Entre em contato hoje e teremos o maior prazer em colaborar consigo!
                   </p>
                       <div className="col-md-6">
                       <a href="#contatos" className="style-button">Saiba Mais</a>

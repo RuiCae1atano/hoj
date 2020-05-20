@@ -16,7 +16,7 @@ class Home extends React.Component{
                   ebooks e aplicando estratégias de marketing para melhorar o seu alcance nas vendas.
                   </p>
                       <div className="col-6">
-                      <a className="style-button">Aproveite!</a>
+                      <a href="#contatos" className="style-button">Aproveite!</a>
                       </div>
                   </div>
               </div>

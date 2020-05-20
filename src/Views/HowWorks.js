@@ -13,14 +13,13 @@ class HowWorks extends React.Component{
                   <h2  className="p-higher cor-attbr">GANHE DINHEIRO COM A SUA INFLUÊNCIA</h2>
                   <h4  className="sectionh4 mb-5">Chega de parcerias pouco lucrativas</h4>
                   <p className="">
-                  Somos uma freelance consultancy com o objetivo de fazer crescer
-                  o seu negócio, ajudando na criação de infoprodutos, e-learning,
-                  ebooks e aplicando estratégias de marketing para melhorar o seu alcance nas vendas.
+                  O nosso objectivo é fazer com que a sua marca e o seu negócio cresçam exponencialmente.
+                   Percebemos que parte do processo consiste em dar à sua audiência conteúdo de valor.
                   </p>
                   <p className="">
-                  Somos uma freelance consultancy com o objetivo de fazer crescer
-                  o seu negócio, ajudando na criação de infoprodutos, e-learning,
-                  ebooks e aplicando estratégias de marketing para melhorar o seu alcance nas vendas.
+                  Não só o iremos ajudar na criação de infoprodutos e plataformas para fins educativos ou de entretenimento,
+                   mas também o ajudaremos na monetização dos mesmos. 
+                  Aplicando estratégias de marketing para melhorar o seu alcance nas vendas.
                   </p>                  
                       {/* <div class="mb-5">
                       <button className="style-button">Saiba Mais</button>
